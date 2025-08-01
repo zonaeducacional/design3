@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final: Voz e Ação Juvenil em Salinas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://rsms.me/inter/inter.css');
+        html { font-family: 'Inter', sans-serif; }
+        
+        /* Estilos para a aba ativa e transições */
+        .tab-button {
+            border-color: transparent;
+            transition: all 0.3s ease-in-out;
+        }
+        .tab-button.active {
+            border-color: #8b5cf6; /* violet-500 */
+            background-color: #8b5cf6; /* violet-500 */
+            color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .tab-content {
+            transition: opacity 0.4s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto max-w-5xl p-4 md:p-8">
+        
+        <header class="text-center my-8 md:my-12">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-purple-800">Voz e Ação: Construindo a Narrativa e a Ferramenta da Nossa Geração</h1>
+            <p class="mt-4 text-lg text-gray-600">Um Projeto Integrado de Podcast e Aplicativo Web para a Juventude de Salinas</p>
+        </header>
+
+        <main>
+            <div class="mb-4 border-b border-gray-200">
+                <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" role="tablist">
+                    <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg" data-tab-target="#projeto">1. O Projeto</button>
+                    </li>
+                    <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg" data-tab-target="#exemplos">2. Exemplos</button>
+                    </li>
+                    <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg" data-tab-target="#rubrica">3. Rubrica</button>
+                    </li>
+                    <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg" data-tab-target="#plano-aulas">4. Plano de Aulas</button>
+                    </li>
+                     <li class="mr-2" role="presentation">
+                        <button class="tab-button inline-block p-4 border-b-2 rounded-t-lg" data-tab-target="#recursos">5. Recursos</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="tabContent">
+                
+                <div id="projeto" class="tab-content bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-4">1. O Projeto: A Proposta Unificada</h2>
+                    <p class="text-gray-700 leading-relaxed">Esta é a versão definitiva e integrada do projeto, concebida para que cada grupo de alunos realize um ciclo completo de inovação sociocultural. A premissa é que, para um problema real, uma solução completa envolve tanto a <strong>conscientização (a narrativa)</strong> quanto a <strong>ação (a ferramenta)</strong>.</p>
+                    
+                    <div class="mt-6 space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Justificativa</h3>
+                            <p class="text-gray-700 leading-relaxed">Em um mundo onde a juventude é frequentemente vista como consumidora passiva de tecnologia e cultura, este projeto posiciona os alunos do 9º ano de Salinas da Margarida como produtores e agentes de transformação. Ao investigar sua própria realidade, os estudantes resgatam a memória local e se tornam "historiadores do presente", valorizando suas raízes e compreendendo as tensões sociais que os cercam. A criação de um podcast desenvolve uma oralidade crítica e uma escrita criativa, enquanto a construção de um aplicativo web os capacita a usar a tecnologia não como distração, mas como ferramenta para solucionar problemas concretos da sua comunidade. Assim, o projeto transcende os muros da escola, promovendo o protagonismo juvenil e a consciência de que eles possuem as ferramentas — narrativas e digitais — para construir ativamente o futuro de seu território.</p>
+                        </div>
+                        <div>
+                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Objetivo Geral</h3>
+                             <p class="text-gray-700 leading-relaxed">Aplicar a metodologia do Design Thinking para que os alunos investiguem as múltiplas facetas da adolescência em Salinas da Margarida, desenvolvendo um olhar crítico e empático sobre sua própria realidade e produzindo um ecossistema de solução (podcast + app web) que proponha uma intervenção sociocultural relevante para a comunidade.</p>
+                        </div>
+                        <div>
+                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Objetivos Específicos</h3>
+                             <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li><strong>Em Leitura:</strong> Realizar leitura de mundo através de entrevistas e pesquisa de campo; interpretar fontes orais e textuais; analisar criticamente os dados coletados para identificar problemas sociais.</li>
+                                <li><strong>Em Produção Textual:</strong> Escrever roteiros para mídia sonora (podcast); produzir textos multimodais para o planejamento de um aplicativo (wireframes e descrições); argumentar e defender ideias de forma escrita.</li>
+                                <li><strong>Em Oralidade:</strong> Conduzir entrevistas; debater ideias em grupo; praticar a locução e a performance vocal para gravação; apresentar e defender um projeto complexo para uma audiência.</li>
+                                <li><strong>Em Tecnologia e Cidadania:</strong> Utilizar ferramentas digitais de baixo código para criar uma solução funcional; desenvolver noções de design centrado no usuário; exercer o protagonismo e a cidadania ao propor soluções para a comunidade.</li>
+                             </ul>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mt-8 mb-3 border-t pt-6">O Ecossistema de Produtos Finais (por grupo):</h3>
+                    <div class="bg-purple-50 p-4 rounded-lg">
+                        <p class="text-gray-700 leading-relaxed">Cada grupo irá desenvolver um <strong>ecossistema de solução</strong> composto por dois produtos intrinsecamente conectados:</p>
+                        <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
+                            <li><strong>Um Aplicativo Web Prototipado:</strong> A ferramenta prática que oferece um serviço, uma informação ou uma conexão para resolver o problema identificado.</li>
+                            <li><strong>Um Episódio de Podcast:</strong> A alma do projeto, que conta a história por trás do aplicativo, aprofunda o tema, apresenta as pessoas envolvidas e convida o ouvinte a usar a ferramenta.</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="text-xl font-semibold text-gray-800 mt-8 mb-3 border-t pt-6">As 5 Etapas do Design Thinking</h3>
+                     <div class="mt-4 space-y-4">
+                        <div class="p-4 bg-gray-50 rounded-md">
+                            <h4 class="font-bold">Etapa 1: Imersão e Empatia (A Escuta do Território)</h4>
+                            <p class="mt-1">Foco na investigação de campo. Alunos realizam o "Mapeamento de Vozes" e a "Expedição Investigativa", entrevistando pares, pais e avós para coletar narrativas sobre ser adolescente em Salinas.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-md">
+                            <h4 class="font-bold">Etapa 2: Definição (O Foco da Solução)</h4>
+                            <p class="mt-1">Com o material coletado, os grupos analisam e clusterizam os temas. A partir daí, definem um problema central a ser resolvido, que guiará tanto o app quanto o podcast.</p>
+                        </div>
+                         <div class="p-4 bg-gray-50 rounded-md">
+                            <h4 class="font-bold">Etapa 3: Ideação Integrada</h4>
+                            <p class="mt-1">Brainstorming para responder: "Qual app resolve isso?" e "Qual podcast conta a história disso?" de forma conectada. Planejamento da sinergia entre os dois produtos.</p>
+                        </div>
+                         <div class="p-4 bg-gray-50 rounded-md">
+                            <h4 class="font-bold">Etapa 4: Prototipagem (Construção)</h4>
+                            <p class="mt-1">Os grupos trabalham em paralelo: desenham o wireframe e constroem o protótipo do app; ao mesmo tempo, escrevem o roteiro e gravam o podcast, garantindo que um faça referência ao outro.</p>
+                        </div>
+                         <div class="p-4 bg-gray-50 rounded-md">
+                            <h4 class="font-bold">Etapa 5: Teste e Apresentação</h4>
+                            <p class="mt-1">Apresentação do ecossistema completo para a turma. Os colegas testam a usabilidade do app e ouvem o podcast, fornecendo feedback construtivo sobre a solução como um todo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="exemplos" class="tab-content bg-white p-6 rounded-lg shadow-lg hidden">
+                     <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-4">2. Exemplos Práticos</h2>
+                     <div class="space-y-8">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-3">Exemplo de Roteiro de Entrevista</h3>
+                            <div class="p-5 bg-gray-50 rounded-lg text-gray-700 space-y-4">
+                                <p><strong>Para um colega:</strong> "Para você, qual é a melhor e a pior coisa de ser adolescente hoje em Salinas?"</p>
+                                <p><strong>Para a geração dos pais:</strong> "Como era ser adolescente na sua época aqui em Salinas? O que vocês faziam para se divertir?"</p>
+                                <p><strong>Para a geração dos avós:</strong> "O(a) senhor(a) pode me contar uma boa lembrança da sua juventude aqui na cidade?"</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-3">Exemplo de Proposta Integrada</h3>
+                            <div class="p-5 bg-gray-50 rounded-lg text-gray-700 space-y-4">
+                                <div><h4 class="font-bold text-gray-900">Problema Identificado:</h4><p>Jovens artistas (músicos, poetas, desenhistas) não têm um espaço para divulgar seu trabalho na cidade e os adolescentes em geral não sabem dos eventos culturais que acontecem.</p></div>
+                                <div><h4 class="font-bold text-gray-900">Solução Integrada:</h4><p>App "Salinas Jovem Conecta" + Podcast "Vozes da Cena".</p></div>
+                                <div><h4 class="font-bold text-gray-900">Descrição do App:</h4><p>Uma vitrine virtual com perfis de jovens artistas e uma agenda cultural colaborativa, onde qualquer um pode cadastrar um evento.</p></div>
+                                <div><h4 class="font-bold text-gray-900">Descrição do Podcast:</h4><p>Cada episódio entrevista um artista que está na "vitrine" do app, contando sua história, suas inspirações e divulgando seu trabalho.</p></div>
+                                <div><h4 class="font-bold text-purple-900">Sinergia no Roteiro do Podcast:</h4><div class="mt-2 p-4 bg-purple-50/70 rounded-md font-mono text-sm text-purple-900"><p>"...para ver as fotos incríveis do grafite do João e seguir ele nas redes, é só abrir nosso app 'Salinas Jovem Conecta' e procurar por ele na Galeria de Artistas. O link está na descrição!"</p></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rubrica" class="tab-content bg-white p-6 rounded-lg shadow-lg hidden">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-4">3. Rubrica de Avaliação Integrada</h2>
+                    <p class="text-gray-700">A avaliação contemplará a qualidade individual de cada produto e, fundamentalmente, a conexão entre eles.</p>
+                    <div class="overflow-x-auto mt-4">
+                        <table class="w-full text-left border-collapse">
+                            <thead class="bg-purple-100">
+                                <tr>
+                                    <th class="p-3 font-semibold text-sm text-purple-900 border-b-2 border-purple-200 align-top">Critério (25% cada)</th>
+                                    <th class="p-3 font-semibold text-sm text-purple-900 border-b-2 border-purple-200 align-top">Excepcional (4 pts)</th>
+                                    <th class="p-3 font-semibold text-sm text-purple-900 border-b-2 border-purple-200 align-top">Satisfatório (3 pts)</th>
+                                    <th class="p-3 font-semibold text-sm text-purple-900 border-b-2 border-purple-200 align-top">Em Desenvolvimento (2 pts)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-sm">
+                                <tr class="hover:bg-gray-50"><td class="p-3 border-b border-gray-200 font-semibold align-top">1. Pesquisa e Definição</td><td class="p-3 border-b border-gray-200 align-top">A pesquisa foi profunda e o problema definido é extremamente relevante, embasando solidamente os dois produtos.</td><td class="p-3 border-b border-gray-200 align-top">A pesquisa foi bem executada e o problema é claro e relevante.</td><td class="p-3 border-b border-gray-200 align-top">A pesquisa ou a definição do problema são superficiais.</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="p-3 border-b border-gray-200 font-semibold align-top">2. Solução Web (App)</td><td class="p-3 border-b border-gray-200 align-top">O app é funcional, intuitivo, bem planejado e esteticamente agradável.</td><td class="p-3 border-b border-gray-200 align-top">O app funciona e cumpre o objetivo principal, mesmo com pequenas falhas de design.</td><td class="p-3 border-b border-gray-200 align-top">O app tem falhas de funcionalidade ou é confuso de usar.</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="p-3 border-b border-gray-200 font-semibold align-top">3. Solução de Mídia (Podcast)</td><td class="p-3 border-b border-gray-200 align-top">O roteiro é envolvente, a oralidade é expressiva e a edição tem ótima qualidade técnica.</td><td class="p-3 border-b border-gray-200 align-top">O podcast tem roteiro e oralidade claros, com qualidade técnica aceitável.</td><td class="p-3 border-b border-gray-200 align-top">O podcast tem problemas de roteiro, oralidade ou qualidade técnica.</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="p-3 border-b border-gray-200 font-semibold align-top text-purple-700">4. Sinergia e Impacto</td><td class="p-3 border-b border-gray-200 align-top">A conexão entre o app e o podcast é explícita, criativa e potente, maximizando o impacto da solução.</td><td class="p-3 border-b border-gray-200 align-top">A conexão entre os produtos existe e é funcional, cumprindo o objetivo.</td><td class="p-3 border-b border-gray-200 align-top">A conexão entre os produtos é fraca, inexistente ou pouco clara.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="plano-aulas" class="tab-content bg-white p-6 rounded-lg shadow-lg hidden">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-4">4. Plano de Aplicação (10 Aulas)</h2>
+                     <div class="overflow-x-auto mt-4">
+                        <table class="w-full text-left border-collapse">
+                            <thead class="bg-purple-100">
+                                <tr>
+                                    <th class="p-3 font-semibold text-sm text-purple-900 border-b-2 border-purple-200">Aulas</th>
+                                    <th class="p-3 font-semibold text-sm text-purple-900 border-b-2 border-purple-200">Fase</th>
+                                    <th class="p-3 font-semibold text-sm text-purple-900 border-b-2 border-purple-200">Atividades Principais</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-sm">
+                                <tr class="hover:bg-gray-50"><td class="p-2 border-b"><strong>1-2</strong></td><td class="p-2 border-b">Imersão e Definição</td><td class="p-2 border-b">Pesquisa de campo, análise dos dados e definição do problema central.</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="p-2 border-b"><strong>3</strong></td><td class="p-2 border-b">Ideação Integrada</td><td class="p-2 border-b">Brainstorming do ecossistema (App + Podcast) e planejamento da sinergia.</td></tr>
+                                <tr class="hover:bg-gray-50 bg-teal-50"><td class="p-2 border-b"><strong>4-6</strong></td><td class="p-2 border-b font-semibold">Prototipagem do App</td><td class="p-2 border-b">Wireframing e construção da primeira versão funcional do aplicativo.</td></tr>
+                                <tr class="hover:bg-gray-50 bg-blue-50"><td class="p-2 border-b"><strong>7-8</strong></td><td class="p-2 border-b font-semibold">Prototipagem do Podcast</td><td class="p-2 border-b">Roteirização (com ganchos para o app) e gravação do áudio.</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="p-2 border-b"><strong>9</strong></td><td class="p-2 border-b">Apresentação e Teste</td><td class="p-2 border-b">Apresentação do ecossistema completo para a turma e coleta de feedback.</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="p-2 border-b"><strong>10</strong></td><td class="p-2 border-b">Encerramento</td><td class="p-2 border-b">Reflexão final sobre o processo, o impacto da solução e avaliação do projeto.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="recursos" class="tab-content bg-white p-6 rounded-lg shadow-lg hidden">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-4">5. Recursos Didáticos Necessários</h2>
+                    <p class="mt-4 text-gray-700">Todos os recursos agora são necessários para todos os grupos.</p>
+                    <div class="grid md:grid-cols-2 gap-6 mt-4 text-gray-700">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-gray-900">Tecnologia Essencial</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1">
+                                <li>Celulares e/ou computadores com internet</li>
+                                <li>Projetor e caixas de som</li>
+                                <li>Fones de ouvido</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                             <h4 class="font-bold text-gray-900">Plataformas e Softwares</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1">
+                                <li><strong>Para o App:</strong> Glide, Carrd, ou similar.</li>
+                                <li><strong>Para o Podcast:</strong> Audacity, BandLab, Anchor.</li>
+                                <li><strong>Para Organização:</strong> Google Docs, Google Sheets.</li>
+                            </ul>
+                        </div>
+                         <div class="bg-gray-50 p-4 rounded-lg">
+                             <h4 class="font-bold text-gray-900">Materiais Físicos</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1">
+                                <li>Quadro branco, flip chart, cartolinas</li>
+                                <li>Post-its de cores variadas</li>
+                                <li>Canetas, marcadores, papel para wireframing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center mt-12 mb-6">
+            <p class="text-sm text-gray-500">&copy; 2025 - Projeto Integrado de LPT e Tecnologia, por Prof. Sérgio.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabs = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            function activateTab(tabButton) {
+                const targetId = tabButton.dataset.tabTarget;
+                const targetContent = document.querySelector(targetId);
+
+                tabs.forEach(t => t.classList.remove('active'));
+                tabContents.forEach(c => c.classList.add('hidden'));
+
+                tabButton.classList.add('active');
+                if (targetContent) {
+                    targetContent.classList.remove('hidden');
+                }
+            }
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    activateTab(tab);
+                });
+            });
+
+            if (tabs.length > 0) {
+                activateTab(tabs[0]);
+            }
+        });
+    </script>
+</body>
+</html>
