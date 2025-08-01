@@ -1,23 +1,3 @@
-🚀 Voz e Ação: Juventude de Salinas
-Um projeto pedagógico integrado que une pesquisa sociocultural, produção de podcast e desenvolvimento de aplicativo web para transformar a realidade dos alunos do 9º ano em Salinas da Margarida, Bahia.
-
-📖 Tabela de Conteúdos
-Sobre o Projeto
-
-🎯 Produtos Finais
-
-🧠 Metodologia Pedagógica
-
-📂 Estrutura do Repositório
-
-🛠️ Ferramentas e Tecnologias
-
-👨‍🏫 Como Replicar este Projeto
-
-👨‍💻 Autor
-
-📜 Licença
-
 🌟 Sobre o Projeto
 Voz e Ação nasceu da necessidade de conectar o currículo da disciplina de Literatura e Produção Textual (LPT) à vida concreta dos estudantes. Em vez de serem apenas consumidores de informação, os alunos são posicionados como protagonistas: pesquisadores, contadores de histórias e desenvolvedores de soluções para a sua própria comunidade.
 
