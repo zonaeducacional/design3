@@ -7,13 +7,13 @@ Este Projeto nasceu da necessidade de conectar o currículo da disciplina de Lit
 
 Este projeto parte da premissa de que a educação mais potente é aquela que capacita o jovem a ler, interpretar e, finalmente, transformar o seu mundo.
 
-A iniciativa guia os alunos do 9º ano da Escola Municipal Januário Eleodoro de Lima por um ciclo completo de inovação sociocultural. Eles investigam as múltiplas facetas da adolescência em sua cidade, Salinas da Margarida, e, a partir dos problemas e potências que identificam, criam um ecossistema de solução composto por um podcast e um aplicativo web.
+A iniciativa guia os alunos do 9º ano da Escola Municipal Januário Eleodoro de Lima por um ciclo completo de inovação sociocultural. Eles investigam as múltiplas facetas da adolescência em sua cidade, Salinas da Margarida, e, em especial, Cairu de Salinas, a partir dos problemas e potências que identificam, criam um ecossistema de solução composto por um podcast e um aplicativo web.
 
 🎯 Produtos Finais: O Ecossistema de Solução
 Cada grupo de alunos é responsável por entregar um ecossistema coeso, onde as partes se complementam:
 
 Aplicativo Web (A Ferramenta):
-Um protótipo funcional desenvolvido com ferramentas de baixo código. O app serve como uma ferramenta prática que oferece um serviço, uma informação ou uma conexão para resolver o problema identificado na pesquisa.
+Um protótipo funcional desenvolvido com ferramentas de baixo código "vibe coding". O app serve como uma ferramenta prática que oferece um serviço, uma informação ou uma conexão para resolver o problema identificado na pesquisa.
 
 Episódio de Podcast (A Narrativa):
 A alma do projeto. O podcast conta a história por trás do aplicativo, aprofunda o tema com entrevistas, apresenta as pessoas envolvidas e convida o ouvinte a usar a ferramenta, criando uma conexão emocional e contextualizando a importância da solução.
