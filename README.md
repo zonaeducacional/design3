@@ -1,5 +1,9 @@
+"A leitura do mundo precede a leitura da palavra" Paulo Freire
+
+🚀 Voz e Ação: Juventude de Salinas
+
 🌟 Sobre o Projeto
-Voz e Ação nasceu da necessidade de conectar o currículo da disciplina de Literatura e Produção Textual (LPT) à vida concreta dos estudantes. Em vez de serem apenas consumidores de informação, os alunos são posicionados como protagonistas: pesquisadores, contadores de histórias e desenvolvedores de soluções para a sua própria comunidade.
+Este Projeto nasceu da necessidade de conectar o currículo da disciplina de Literatura e Produção Textual (LPT) à vida concreta dos estudantes. Em vez de serem apenas consumidores de informação, os alunos são posicionados como protagonistas: pesquisadores, contadores de histórias e desenvolvedores de soluções para a sua própria comunidade.
 
 Este projeto parte da premissa de que a educação mais potente é aquela que capacita o jovem a ler, interpretar e, finalmente, transformar o seu mundo.
 
