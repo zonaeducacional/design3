@@ -13,7 +13,7 @@ A iniciativa guia os alunos do 9º ano da Escola Municipal Januário Eleodoro de
 Cada grupo de alunos é responsável por entregar um ecossistema coeso, onde as partes se complementam:
 
 Aplicativo Web (A Ferramenta):
-Um protótipo funcional desenvolvido com ferramentas de baixo código "vibe coding". O app serve como uma ferramenta prática que oferece um serviço, uma informação ou uma conexão para resolver o problema identificado na pesquisa.
+Um protótipo funcional desenvolvido com ferramentas de "vibe coding". O app serve como uma ferramenta prática que oferece um serviço, uma informação ou uma conexão para resolver o problema identificado na pesquisa.
 
 Episódio de Podcast (A Narrativa):
 A alma do projeto. O podcast conta a história por trás do aplicativo, aprofunda o tema com entrevistas, apresenta as pessoas envolvidas e convida o ouvinte a usar a ferramenta, criando uma conexão emocional e contextualizando a importância da solução.
