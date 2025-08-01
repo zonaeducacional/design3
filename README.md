@@ -1,7 +1,3 @@
-Com certeza, Sérgio. Criar um bom README.md é fundamental para apresentar um projeto no GitHub, seja ele um software ou, como no nosso caso, um projeto pedagógico. Ele serve como porta de entrada, explicando o propósito, a metodologia e como outros educadores ou desenvolvedores podem se beneficiar do material.
-
-Preparei um README.md completo, em formato Markdown, que pode ser copiado e colado diretamente em um arquivo README.md no seu repositório do GitHub. Ele foi estruturado para ser claro, informativo e inspirador para quem o encontrar.
-
 🚀 Voz e Ação: Juventude de Salinas
 Um projeto pedagógico integrado que une pesquisa sociocultural, produção de podcast e desenvolvimento de aplicativo web para transformar a realidade dos alunos do 9º ano em Salinas da Margarida, Bahia.
 
